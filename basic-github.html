@@ -4,45 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="basic-github.css">
 </head>
 <header><h1>Опорный конспект по GitHub ч.1</h1></header>
 <body>
     <a href="index.html" class="btn">На главную</a>
     <div>
         <h2>Основы GitHub</h2>
-        <p>GitHub - это платформа хостинга, хранения и совместной разработке. Здесь разработчики могут хранить свои проекты, работать над ними в команде, самостоятельно, параллельно и отслеживать изменения, обновления.</p>
+        <div class="eee">
+            <p>GitHub - это платформа хостинга, хранения и совместной разработке. Здесь разработчики могут хранить свои проекты, работать над ними в команде, самостоятельно, параллельно и отслеживать изменения, обновления.</p>
+        </div>
     </div>
     <div>
         <h2>SSH-Ключ</h2>
+        <div class="sss">
         <p>SSH-ключ - это способ безопасной аутентификации (подключение) на удаленном (облачном) сервере. Он используется для подключения к GitHub, например, без постоянного ввода пароля.</p>
+        </div>
         <h3>Создание SSH-Ключ:</h3>
-        <p>$ git ssh-keygen -t rsa -b 4096 -C "your_email@example.com"</p>
-        <p>$ cat ./.ssh/id_rsa.pub</p>
-        <p>$ GitHub -> SSH and GPG keys -> New SSH key -> вставьте ключ</p>
+        <div class="eee">
+            <p>$ git ssh-keygen -t rsa -b 4096 -C "your_email@example.com"</p>
+            <p>$ cat ./.ssh/id_rsa.pub</p>
+            <p>$ GitHub -> SSH and GPG keys -> New SSH key -> вставьте ключ</p>
+        </div>
     </div>
     <div>
         <h2>Репозиторий</h2>
+        <div class="sss">
         <p>Репозиторий - это место, где хронятся код проекта, вместе со всей его историей изменений.</p>
+        </div>
         <h3>Добобовление репозитория:</h3>
-        <p>$ git init "project directory"</p>
+        <div class="eee">
+            <p>$ git init "project directory"</p>
+        </div>
     </div>
     <div>
         <h2>Коммит</h2>
+        <div class="sss">
         <p>Коммит, как сохранение в игре, фиксирует текущее состояние, чтобы в случае чего можно было вернуться к нему.</p>
+        </div>
         <h3>Создание коммита:</h3>
-        <p>$ git add -A/ git add - -all</p>
-        <p>$ git commit -m "Сообщение коммита"</p>
-        <p>$ git push</p>
+        <div class="eee">
+            <p>$ git add -A/ git add - -all</p>
+            <p>$ git commit -m "Сообщение коммита"</p>
+            <p>$ git push</p>
+        </div>
     </div>
     <div>
         <h2>Ветка</h2>
+        <div class="sss">
         <p>Ветка - это отдельная линия разработки, которая может быть создана для работы над новой версией (функцией) или исправлением, не затрагивая основной код проекта.</p>
+        </div>
         <h3>Создание новой ветки:</h3>
-        <p>$ git branch "имя_ветки"</p>
-        <p>$ git checkout -b "новая_ветка"</p>
+        <div class="eee">
+            <p>$ git branch "имя_ветки"</p>
+            <p>$ git checkout -b "новая_ветка"</p>
+        </div>
         <h3>Переключение на ветку:</h3>
-        <p>$ git checkout "имя_ветки"</p>
-        <p></p>
+        <div class="eee">
+            <p>$ git checkout "имя_ветки"</p>
+        </div>
     </div>
     <footer>
         <p>17.02.2023</p>
